@@ -8,13 +8,13 @@ using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 using System.Text;
 using System.Threading.Tasks;
-using News_reader.Models;
-using News_reader.Views;
+using NewsReader.Models;
+using NewsReader.Views;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Popups;
 
-namespace News_reader.Services.APIServices
+namespace NewsReader.Services.APIServices
 {
     static class API
     {

@@ -1,4 +1,4 @@
-﻿<Page x:Class="News_reader.Views.LikesPage"
+﻿<Page x:Class="NewsReader.Views.LikesPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:Behaviors="using:Template10.Behaviors"
@@ -6,12 +6,12 @@
       xmlns:Interactivity="using:Microsoft.Xaml.Interactivity"
       xmlns:controls="using:Template10.Controls"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:data="using:News_reader.Models"
+      xmlns:data="using:NewsReader.Models"
       xmlns:xaml="using:Windows.UI.Xaml"
-      xmlns:local="using:News_reader.Views"
-      xmlns:cv="using:News_reader.Services.Converter"
+      xmlns:local="using:NewsReader.Views"
+      xmlns:cv="using:NewsReader.Services.Converter"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      xmlns:vm="using:News_reader.ViewModels" mc:Ignorable="d" x:Name="page">
+      xmlns:vm="using:NewsReader.ViewModels" mc:Ignorable="d" x:Name="page">
 
     <Page.DataContext>
         <vm:LikesPageViewModel x:Name="ViewModel" />

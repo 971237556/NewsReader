@@ -1,9 +1,9 @@
-﻿using News_reader.ViewModels;
+﻿using NewsReader.ViewModels;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml.Controls;
 using System;
 
-namespace News_reader.Views
+namespace NewsReader.Views
 {
     public sealed partial class DetailPage : Page
     {

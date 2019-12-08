@@ -1,5 +1,5 @@
-﻿using News_reader.Models;
-using News_reader.Services.APIServices;
+﻿using NewsReader.Models;
+using NewsReader.Services.APIServices;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -12,7 +12,7 @@ using Windows.Media.Playback;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 
-namespace News_reader.Services.MusicServices
+namespace NewsReader.Services.MusicServices
 {
     public static class MusicService
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.ApplicationModel.Background;
 
-namespace News_reader.Services.BackgroundServices
+namespace NewsReader.Services.BackgroundServices
 {
     public static class BackgroundService
     {

@@ -4,7 +4,7 @@
   <mp:PhoneIdentity PhoneProductId="92211ab1-5481-4a1a-9111-a3dd87b81b72" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>News Reader !!</DisplayName>
-    <PublisherDisplayName>这是明二504寝室的期中项目，开始于2018/5/23</PublisherDisplayName>
+    <PublisherDisplayName>rhb</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

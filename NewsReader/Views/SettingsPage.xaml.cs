@@ -2,7 +2,7 @@
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace News_reader.Views
+namespace NewsReader.Views
 {
     public sealed partial class SettingsPage : Page
     {

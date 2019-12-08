@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace News_reader.Models
+namespace NewsReader.Models
 {
     [DataContract]
     public class Song_list

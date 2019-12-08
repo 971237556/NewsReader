@@ -7,13 +7,13 @@ using Template10.Common;
 using Template10.Mvvm;
 using Template10.Services.NavigationService;
 using Windows.UI.Xaml.Navigation;
-using News_reader.Models;
+using NewsReader.Models;
 using System.Diagnostics;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml.Controls;
 
-namespace News_reader.ViewModels
+namespace NewsReader.ViewModels
 {
     public class DetailPageViewModel : ViewModelBase
     {

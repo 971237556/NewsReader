@@ -1,6 +1,6 @@
 ﻿using Windows.UI.Xaml;
 using System.Threading.Tasks;
-using News_reader.Services.SettingsServices;
+using NewsReader.Services.SettingsServices;
 using Windows.ApplicationModel.Activation;
 using Template10.Controls;
 using Template10.Common;
@@ -8,11 +8,11 @@ using System;
 using System.Linq;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Controls;
-using News_reader.Services.Database;
+using NewsReader.Services.Database;
 using Windows.ApplicationModel.Background;
-using News_reader.Services.BackgroundServices;
+using NewsReader.Services.BackgroundServices;
 
-namespace News_reader
+namespace NewsReader
 {
     /// Documentation on APIs used in this page:
     /// https://github.com/Windows-XAML/Template10/wiki

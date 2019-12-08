@@ -1,11 +1,11 @@
 ﻿using System;
-using News_reader.ViewModels;
+using NewsReader.ViewModels;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using System.Collections.ObjectModel;
 
-namespace News_reader.Views
+namespace NewsReader.Views
 {
     public sealed partial class MainPage : Page
     {

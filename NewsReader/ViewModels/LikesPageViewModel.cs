@@ -1,5 +1,5 @@
-﻿using News_reader.Models;
-using News_reader.Services.Database;
+﻿using NewsReader.Models;
+using NewsReader.Services.Database;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-namespace News_reader.ViewModels
+namespace NewsReader.ViewModels
 {
     class LikesPageViewModel : ViewModelBase
     {

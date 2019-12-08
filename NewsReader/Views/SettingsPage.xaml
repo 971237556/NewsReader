@@ -1,4 +1,4 @@
-﻿<Page x:Class="News_reader.Views.SettingsPage"
+﻿<Page x:Class="NewsReader.Views.SettingsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:Behaviors="using:Template10.Behaviors"
@@ -7,9 +7,9 @@
       xmlns:controls="using:Template10.Controls"
       xmlns:converter="using:Template10.Converters"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:local="using:News_reader.Views"
+      xmlns:local="using:NewsReader.Views"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      xmlns:vm="using:News_reader.ViewModels"
+      xmlns:vm="using:NewsReader.ViewModels"
       mc:Ignorable="d">
 
     <Page.DataContext>
@@ -101,15 +101,15 @@
                         <ToggleSwitch x:Name="ShowHamburgerButtonToggleSwitch"
                                       IsEnabled="{Binding IsOn, ElementName=IsFullScreenToggleSwitch, Converter={StaticResource FalseWhenTrueConverter}}"
                                       IsOn="{Binding ShowHamburgerButton, Mode=TwoWay}"
-                                      OffContent="News_reader Button is hidden"
-                                      OnContent="News_reader Button is visible"
+                                      OffContent="NewsReader Button is hidden"
+                                      OnContent="NewsReader Button is visible"
                                       RelativePanel.AlignLeftWithPanel="True"
                                       RelativePanel.Below="UseLightThemeToggleSwitch" />
 
                         <ToggleSwitch x:Name="IsFullScreenToggleSwitch"
                                       IsOn="{Binding IsFullScreen, Mode=TwoWay}"
-                                      OffContent="News_reader Menu is visible"
-                                      OnContent="News_reader Menu is hidden"
+                                      OffContent="NewsReader Menu is visible"
+                                      OnContent="NewsReader Menu is hidden"
                                       RelativePanel.AlignLeftWithPanel="True"
                                       RelativePanel.Below="ShowHamburgerButtonToggleSwitch" />
 

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace News_reader.Services.Database
+namespace NewsReader.Services.Database
 {
     class DataBase
     {

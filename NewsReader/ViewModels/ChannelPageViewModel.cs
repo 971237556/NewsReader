@@ -1,7 +1,7 @@
-﻿using News_reader.Models;
-using News_reader.Services.APIServices;
-using News_reader.Services.Database;
-using News_reader.Views;
+﻿using NewsReader.Models;
+using NewsReader.Services.APIServices;
+using NewsReader.Services.Database;
+using NewsReader.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,7 +15,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace News_reader.ViewModels
+namespace NewsReader.ViewModels
 {
     class ChannelPageViewModel : ViewModelBase
     {

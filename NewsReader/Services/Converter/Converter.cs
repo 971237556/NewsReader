@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Data;
 
-namespace News_reader.Services.Converter
+namespace NewsReader.Services.Converter
 {
     public class BoolNegationConverter : IValueConverter
     {

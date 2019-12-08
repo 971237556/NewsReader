@@ -10,7 +10,7 @@ using Windows.UI.Xaml.Controls;
 using Template10.Mvvm;
 using Windows.Media.Playback;
 
-namespace News_reader.Views
+namespace NewsReader.Views
 {
     public sealed partial class Shell : Page
     {

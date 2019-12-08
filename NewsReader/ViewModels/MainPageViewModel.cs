@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 using Template10.Services.NavigationService;
 using Windows.UI.Xaml.Navigation;
 using System.Collections.ObjectModel;
-using News_reader.Models;
-using News_reader.Services.Database;
+using NewsReader.Models;
+using NewsReader.Services.Database;
 using Windows.UI.Xaml;
-using News_reader.Services.APIServices;
+using NewsReader.Services.APIServices;
 using Windows.UI.Xaml.Media.Imaging;
 using System.Diagnostics;
 using Windows.UI.Xaml.Controls;
 using Windows.Media.Playback;
 
-namespace News_reader.ViewModels
+namespace NewsReader.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {

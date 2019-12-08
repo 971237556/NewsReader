@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 using Template10.Mvvm;
 using Template10.Services.NavigationService;
 using Windows.UI.Xaml.Navigation;
-using News_reader.Models;
+using NewsReader.Models;
 using System.Collections.ObjectModel;
 using Windows.UI.Xaml.Media.Imaging;
 using System.Diagnostics;
-using News_reader.Services.APIServices;
+using NewsReader.Services.APIServices;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Template10.Common;
-using News_reader.Services.Database;
-using News_reader.Views;
+using NewsReader.Services.Database;
+using NewsReader.Views;
 using Windows.Storage;
 
-namespace News_reader.ViewModels
+namespace NewsReader.ViewModels
 {
     class NewsPageViewModel : ViewModelBase
     {

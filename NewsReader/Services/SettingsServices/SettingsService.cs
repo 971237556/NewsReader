@@ -3,7 +3,7 @@ using Template10.Common;
 using Template10.Utils;
 using Windows.UI.Xaml;
 
-namespace News_reader.Services.SettingsServices
+namespace NewsReader.Services.SettingsServices
 {
     public class SettingsService
     {

@@ -1,4 +1,4 @@
-﻿using News_reader.Services.Database;
+﻿using NewsReader.Services.Database;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace News_reader.Models
+namespace NewsReader.Models
 {
     [DataContract]
     public class ChannelList
